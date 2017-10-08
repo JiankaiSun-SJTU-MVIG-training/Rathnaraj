@@ -1,0 +1,57 @@
+.
+├── aclImdb
+│   ├── imdbEr.txt
+│   ├── imdb.vocab
+│   ├── README
+│   ├── test
+│   │   ├── labeledBow.feat
+│   │   ├── neg
+│   │   │   ├── 0_2.txt
+│   │   │   ├── 10000_4.txt
+│   │   │   ├── 10001_1.txt
+                ......
+│   │   │   ├── 9996_10.txt
+│   │   │   ├── 9997_10.txt
+│   │   │   ├── 9998_8.txt
+│   │   │   ├── 999_8.txt
+│   │   │   └── 9999_10.txt
+│   │   ├── urls_neg.txt
+│   │   └── urls_pos.txt
+│   └── train
+│       ├── labeledBow.feat
+│       ├── neg
+│       │   ├── 0_3.txt
+                ......
+│       │   ├── 9994_0.txt
+│       │   ├── 9995_0.txt
+│       │   ├── 9996_0.txt
+│       │   ├── 9997_0.txt
+│       │   ├── 9998_0.txt
+│       │   └── 9999_0.txt
+│       ├── unsupBow.feat
+│       ├── urls_neg.txt
+│       ├── urls_pos.txt
+│       └── urls_unsup.txt
+├── fileStructure.txt
+├── glove
+│   └── glove.6B.50d.txt
+├── glove.6B.zip
+├── model1
+│   ├── chkpt-0001.params
+│   ├── chkpt-0002.params
+│   ├── chkpt-0003.params
+│   └── chkpt-symbol.json
+├── model2
+│   ├── chkpt-0001.params
+│   ├── chkpt-0002.params
+│   ├── chkpt-0003.params
+│   └── chkpt-symbol.json
+├── model3
+│   ├── chkpt-0001.params
+│   ├── chkpt-0002.params
+│   ├── chkpt-0003.params
+│   └── chkpt-symbol.json
+├── model4
+└── Sentiment analysis with Apache MXNet.ipynb
+
+13 directories, 100027 files
